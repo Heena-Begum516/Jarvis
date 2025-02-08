@@ -134,7 +134,7 @@ def load_name() -> str:
         with open("assistant_name.txt", "r") as file:
             return file.read().strip()
     except FileNotFoundError:
-        return ("Miss Heena")  # Default name
+        return ("Jarvis")  # Default name
 
 
 def search_wikipedia(query):
